@@ -10,4 +10,11 @@ echo "# mongodbapplication" >> README.md
 ## …or push an existing repository from the command line
 - git remote add origin https://github.com/akasozi/mongodbapplication.git
 - git branch -M main
+
+## Other import commands
+- git config --get remote.origin.url
+- git remote show [remote-name] command
+- git remote show origin
+- git remote remove origin
+
 git push -u origin main
